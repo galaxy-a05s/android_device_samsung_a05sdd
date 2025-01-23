@@ -27,4 +27,4 @@ PRODUCT_MODEL := SM-A057G
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a05s/recovery/root,recovery/root)
+#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a05s/recovery/root,recovery/root)
