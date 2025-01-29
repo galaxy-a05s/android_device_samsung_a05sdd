@@ -20,11 +20,10 @@ PRODUCT_RELEASE_NAME := a05s
 # Inherit device configuration
 $(call inherit-product, device/samsung/a05s/device.mk)
 
-## Device identifier. This must come after all inclusions
-PRODUCT_NAME := twrp_a05s
 PRODUCT_DEVICE := a05s
-PRODUCT_MODEL := SM-A057G
+PRODUCT_NAME := twrp_a05s
 PRODUCT_BRAND := samsung
+PRODUCT_MODEL := SM-M145F
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/a05s/recovery/root,recovery/root)
